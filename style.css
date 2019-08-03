@@ -1,0 +1,47 @@
+.stars{
+    background-color:yellow;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    animation-iteration-count: infinite;
+}
+.star-1{
+ margin-top: 15%;
+ margin-left:60px;
+ animation-name: twinkal-1;
+ animation-duration: 1s;
+}
+.star-2{ margin-top: -15%;
+     margin-left: 25%;
+     animation-name: twinkal-2;
+     animation-duration: 1s;
+}
+@keyframes twinkal-1{
+    50%{
+        transform: scal(0.5);    
+       
+        opacity: 0.5;
+}
+}
+@keyframes twinkal-2{
+    20%{
+        transform: scale(0.5)    ;
+       
+        opacity: 0.5;
+
+}
+}
+#back{
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background: linear-gradient(black, #000099, #66c2ff, #ffcccc,#ffeee6);
+}
