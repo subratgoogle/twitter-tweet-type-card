@@ -20,6 +20,7 @@ header .profile-name{
 header .follow-btn{
 display: flex;
 margin: 0 0 0 auto;
+    align-items: center;
 }
 
 hrader .follow-btn button{ border: 0px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px;
