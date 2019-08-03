@@ -41,5 +41,25 @@ header h3, header h4{
 footer{
     display: flex;
     flex-direction: row;
-    
+
+}
+footer .stats{
+ display: flex;
+ font-size: 15px;
+}
+footer .stats strong{
+    font-size: 18px;
+
+}
+footer .stats .like{
+    margin-left: 10px;
+
+}
+footer .cta{
+    margin-left: auto;
+
+}
+footer .cta button{
+    border: 0px;
+    background: transparent;
 }
