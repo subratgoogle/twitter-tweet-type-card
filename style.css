@@ -1,47 +1,45 @@
-.stars{
-    background-color:yellow;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
-    animation-iteration-count: infinite;
+header{
+    display: flex;
+    flex-direction: row;
 }
-.star-1{
- margin-top: 15%;
- margin-left:60px;
- animation-name: twinkal-1;
- animation-duration: 1s;
+header .profile-thumbnail{
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
 }
-.star-2{ margin-top: -15%;
-     margin-left: 25%;
-     animation-name: twinkal-2;
-     animation-duration: 1s;
+header .profile-name{
+    display: flex;
+    margin-left: 10px;
 }
-@keyframes twinkal-1{
-    50%{
-        transform: scal(0.5);    
-       
-        opacity: 0.5;
+header .follow-btn{
+display: flex;
+margin: 0 0 0 auto;
 }
+
+hrader .follow-btn button{ border: 0px; border-radius: 3px; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px;
+padding: 5px;
 }
-@keyframes twinkal-2{
-    20%{
-        transform: scale(0.5)    ;
-       
-        opacity: 0.5;
+header h3, header h4{
+    display: flex;
+    margin: 0px;
 
 }
+#inner p{
+    margin-bottom: 10px;
+    font-size: 20px;
+
 }
-#back{
-    position: fixed;
-    padding: 0;
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    top:0;
-    left: 0;
-    background: linear-gradient(black, #000099, #66c2ff, #ffcccc,#ffeee6);
+#inner hr{
+    margin: 20px 0;
+    border-style: solid;
+    opacity: 0.1;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    
 }
